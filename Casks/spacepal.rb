@@ -4,7 +4,7 @@ cask "spacepal" do
 
   url "https://getspacepal.com/downloads/Spacepal-#{version}.zip"
   name "Spacepal"
-  desc "Name, preview and switch between macOS Spaces from the menu bar"
+  desc "Name, preview and switch between desktops from the menu bar"
   homepage "https://getspacepal.com/"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "spacepal" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Spacepal.app"
 
