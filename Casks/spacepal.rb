@@ -1,6 +1,6 @@
 cask "spacepal" do
-  version "1.2.17"
-  sha256 "2075ea249dc55251abdb2426b34d683f1dc17a8b302e273e3809542cfc869e4f"
+  version "1.2.18"
+  sha256 "14de09ced7aec7129dc2cb585ea9073ca3d5ddd0623048099aa3a93a9387c29e"
 
   url "https://getspacepal.com/downloads/Spacepal-#{version}.zip"
   name "Spacepal"
